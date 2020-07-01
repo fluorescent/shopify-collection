@@ -1,0 +1,28 @@
+{
+  "name": "shopify-collection",
+  "version": "0.1.0",
+  "description": "Utility to parse and update Shopify collection URLs to help handle AJAX tag filtering and sorting.",
+  "repository": {
+    "url": "http://github.com/fluco/shopify-collection"
+  },
+  "source": "src/index.js",
+  "module": "dist/shopify-collection.es.js",
+  "main": "dist/shopify-collection.js",
+  "license": "MIT",
+  "keywords": [
+    "shopify",
+    "themes"
+  ],
+  "scripts": {
+    "build": "microbundle",
+    "watch": "microbundle watch --compress false",
+    "test": "ava"
+  },
+  "dependencies": {
+    "domurl": "^2.3.4"
+  },
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "microbundle": "^0.12.2"
+  }
+}
