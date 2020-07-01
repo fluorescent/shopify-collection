@@ -1,6 +1,7 @@
 # shopify-collection
 
 [![npm version](https://img.shields.io/npm/v/shopify-collection.svg?style=flat-square)](https://www.npmjs.com/package/shopify-collection)
+![CircleCI](https://img.shields.io/circleci/build/github/FluCo/shopify-collection/master?style=flat-square&token=5f9e2c61db26f0beb9be13a04b5fa7feebf4f9fb)
 
 Utility to parse and update Shopify collection URLs to help handle AJAX tag filtering and sorting. Similar to Liquid's `link_to_add_tag` and `link_to_remove_tag`, but for JavaScript.
 
